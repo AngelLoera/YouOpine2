@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouOpine2", "YouOpine2\YouOpine2.csproj", "{EC789CFE-EEA9-4766-9399-D711450BACF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouOpine2.WebApp", "YouOpine2\YouOpine2.WebApp.csproj", "{EC789CFE-EEA9-4766-9399-D711450BACF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouOpine2.Entities", "YouOpine2.Entities\YouOpine2.Entities.csproj", "{56C3BAFB-1C69-4E19-B886-5D381DB66087}"
 EndProject
