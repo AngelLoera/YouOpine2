@@ -104,8 +104,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Migrations\202012022327149_La tabla de usuario fue creada.cs" />
+    <Compile Include="Migrations\202012022327149_La tabla de usuario fue creada.designer.cs">
+      <DependentUpon>202012022327149_La tabla de usuario fue creada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YouOpine2DbContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\YouOpine2.Entities\YouOpine2.Entities.csproj">
@@ -116,6 +121,11 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202012022327149_La tabla de usuario fue creada.resx">
+      <DependentUpon>202012022327149_La tabla de usuario fue creada.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

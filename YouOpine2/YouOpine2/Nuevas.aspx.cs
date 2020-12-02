@@ -13,14 +13,6 @@ namespace YouOpine2
         public List<Peliculas> MyList = null;
         protected void Page_Load(object sender, EventArgs e)
         {
-            #region Alternativa 1
-            using (yodbModel dbCtx = new yodbModel())
-            {
-                var query = dbCtx.Peliculas.ToList();
-                gvPeliculas.DataSource = query;
-                gvPeliculas.DataBind();
-            }
-            #endregion
         }
     }
 }

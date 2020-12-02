@@ -34,7 +34,7 @@
         </nav>
         <!-- Aqui termina el menu -->
             <br />
-            <asp:GridView ID="gvPeliculas" runat="server"></asp:GridView>
+         
             <br />
     </form>
 </body>
