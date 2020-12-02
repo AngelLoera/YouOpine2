@@ -1,13 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Libros.aspx.cs" Inherits="YouOpine2.Libros" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TopReseñas.aspx.cs" Inherits="YouOpine2.TopReseñas" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>You Opine</title>
-    <link rel="stylesheet" href="Menu.css" />
-    <link rel="stylesheet" href="FormPag.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -25,9 +23,9 @@
 
             <a href="Peliculas.aspx">Peliculas</a>
             <a href="Videojuegos.aspx">Videojuegos</a>
-            <a href="Libros.aspx" class="active">Libros</a>
+            <a href="Libros.aspx">Libros</a>
             <a href="TopReseñas.aspx">Top reseñas</a>
-            <a href="#">Nuevas</a>
+            <a href="Nuevas.aspx" class="active">Nuevas</a>
             <a href="#">Descubre</a>
             <a href="#">Reglas reseñas</a>
 
@@ -36,47 +34,56 @@
         <!-- Aqui empieza el contenido de la pagina -->
         <!-- Primera linea SECTION Contiene todos los articles-->
         <section>
-            <h1 id="p">Libros</h1>
-            <!-- Segunda linea (Imagen y desprescripcion de los libros,Agregar opinion)-->
+            <h1 id="p">Top Reseñas</h1>
+            <!-- Segunda linea (Imagen y desprescripcion de las peliculas,Agregar opinion)-->
             <article>
-                <!-- Aqui va la imagen de los libros -->
+                <!-- Aqui va la imagen de la pelicula -->
                 <br />
                 <div id="imp1">
-                    <img src="https://static.megustaleer.com/images/libros_200_x/EAL32915.jpg" width="300px" height="400px">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1663/1663819_so.jpg" width="300px" height="400px">
+
                     <!-- Aqui va la información -->
                     <div id="infp1">
-                        <h1>Viajes con un mapa en blanco</h1>
+                        <h1>Iron Man</h1>
                         <table>
                             <tr>
                                 <th>
                                     <b>Título original:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Viajes con un mapa en blanco.</p>
+                                    <p>Iron Man.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Año de publicación:&nbsp&nbsp</b>
+                                    <b>Año:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>2018.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Páginas:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>178.</p>
+                                    <p>2008.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Autor:&nbsp&nbsp</b>
+                                    <b>Duración:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Juan Gabriel Vásquez.</p>
+                                    <p>126 min.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Pais:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Estados Unidos.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Dirección:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Jon Favreau.</p>
                                 </th>
                             </tr>
                             <tr>
@@ -85,61 +92,67 @@
                                 </th>
                                 <th>
                                     <p>
-                                        En un mundo pragmático y utilitario, la pregunta ¿y eso para qué sirve? acecha siempre cualquier actividad que realicemos, o cualquier meta que persigamos. Las artes en general, y la literatura en particular, no han escapado de ella y más de un lector se ha enfrentado a la pregunta de por qué y para qué leer. 
-¿Por qué leer novelas? Se preguntan los lectores.
-¿Por qué escribir novelas? Se preguntan los escritores.
-¿Para qué sirve leer novelas? Se preguntan todos.
-A estas preguntas trata de responder Juan Gabriel Vásquez en su último libro de ensayos Viajes con un mapa en blanco, publicado por Alfaguara en 2018. 
+                                        Iron Man es la historia del industrial multimillonario y genio inventor Tony Stark (Robert Downey JR.).
+                    Como consejero delegado de Industrias Stark, el mayor contratista de armamento del Gobierno norteamericano,
+                     Tony se ha hecho célebre por proteger durante décadas los intereses norteamericanos en todo el mundo.
                                     </p>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de los libros -->
-                                    <a href="#">
-                                        <img src="#" /></a>
                                 </th>
+                                
                             </tr>
+                            <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"style="font-size:100px;"></i></a>
                         </table>
                     </div>
                 </div>
-
             </article>
-            <!-- Aqui empieza el otro libro -->
+            <!-- Aqui empieza la otra pelicula -->
             <article>
-                <!-- Aqui va la imagen del libro -->
+                <!-- Aqui va la imagen de la pelicula -->
                 <div id="imp1">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/41XuKUc+U3L.jpg" width="300px" height="400px">
+                    <img src="https://pcdnerja.files.wordpress.com/2017/12/coco-portada.jpg?w=1152" width="300px" height="400px">
                     <!-- Aqui va la información -->
                     <div id="infp1">
-                        <h1>La guerra del arte</h1>
+                        <h1>Coco</h1>
                         <table>
                             <tr>
                                 <th>
                                     <b>Título original:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>The war of art.</p>
+                                    <p>Coco.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Año de publicación:&nbsp&nbsp</b>
+                                    <b>Año:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>2011.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Páginas:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>192.</p>
+                                    <p>2017.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Autor:&nbsp&nbsp</b>
+                                    <b>Duración:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Steven Pressfield.</p>
+                                    <p>109 min.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Pais:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Estados Unidos.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Dirección:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Lee Unkrich, Adrián Molina.</p>
                                 </th>
                             </tr>
                             <tr>
@@ -148,11 +161,13 @@ A estas preguntas trata de responder Juan Gabriel Vásquez en su último libro d
                                 </th>
                                 <th>
                                     <p>
-                                        La guerra del arte es un libro de Steven Pressfield que me quería leer hace rato por varias razones.
-Primero, por el título y su juego de referencia con el conocido El arte de la guerra de Sun Tzu; segundo, porque había escuchado muchísimo de él.
-Además, lo recomendaban youtubers, bloggers y las opiniones en amazon y Goodreads eran buenísimas en su mayoría. 
+                                        Coco se trata de Miguel, un niño de 12 años en un típico pueblo mexicano llamado Santa Cecilia, quien quiere
+                        ser músico. Pero Miguel es miembro de una familia de zapateros que odia la música debido a algo que les sucedió
+                         en el pasado. Eso lleva al chiquillo y su xoloitzcuintle llamado Dante a una aventura en la Tierra de los
+                         Muertos donde piensa que está buscando el alma de uno de los músicos más importantes de México, Ernesto de la Cruz,
+                          pero acaba encontrando algo mucho más importante: la esencia del amor de su familia.
                                     </p>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de los libros -->
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
                                     <a href="#">
                                         <img src="#" /></a>
                                 </th>

@@ -26,6 +26,7 @@
 
 table {
     text-align: left;
+    background-color: aquamarine;
 }
 
 table, tr, th {
@@ -35,3 +36,7 @@ table, tr, th {
     table th {
         font-weight: normal;
     }
+#gvPeliculas {
+    float: left;
+    width: 800px;
+}
