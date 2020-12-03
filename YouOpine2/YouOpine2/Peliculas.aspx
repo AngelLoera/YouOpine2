@@ -105,7 +105,7 @@
                                 <th><b>Ingresar opinion</b></th>
                                 <th>
                                     <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
-                                    <a href="#">
+                                    <a href="IronManOp.aspx">
                                         <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
                             </tr>
 

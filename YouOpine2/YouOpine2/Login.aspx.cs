@@ -19,11 +19,11 @@ namespace YouOpine2
             string username = txtUserID.Text.Trim();
             string password = txtPassword.Text.Trim();
             string message = BusinessLogic.UsuarioBLL.LogInInSystem(username, password);
-            if(message.Equals("Su sesion se inicio correctamente"))
+            if(message.Equals("Sesion iniciado"))
             {
                 Session["login"] = username;
             }
-            lblResultado.Text = message.ToUpper();
+            lblResultado.Text = message;
         }
     }
 }

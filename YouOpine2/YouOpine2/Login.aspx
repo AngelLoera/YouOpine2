@@ -52,10 +52,12 @@
                     <asp:Button class="Button" ID="btnIniciarsesion" runat="server" BorderStyle="None" Text="Iniciar sesion" OnClick="btnIniciarsesion_Click" />
                    </td>
                </tr>
+               </table>
+            <table>
                <tr>
                    <td>
                        <br />
-                       <asp:Label ID="lblResultado" runat="server"></asp:Label>
+                       <asp:Label class="lres" ID="lblResultado" runat="server"></asp:Label>
                    </td>
                </tr>
            </table>

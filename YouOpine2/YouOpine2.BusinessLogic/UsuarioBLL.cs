@@ -41,7 +41,7 @@ namespace YouOpine2.BusinessLogic
                     bool IsLocked = DataAccess.UsuarioDAL.IsUserLocked(username);
                     if(IsLocked)
                     {
-                        message = "Su usuario ha sido bloqueado por cuestiones de seguridad, porfavor contacte al administrador del sistema, o al telefono 8129060541 o al correo skate8394@gmail.com para que sean reestablecidos los accesos al sistema";
+                        message = "Usuario bloqueado, contacto skate8394@gmail.com";
                     }
                     else
                     {
@@ -49,16 +49,12 @@ namespace YouOpine2.BusinessLogic
 
                     if (IsLogged)
                     {
-                           //if (password.Equals("admin")|| password.Equals("123456"))
-                           // {
-                           //     message = "Contraseña inicial insegura, por favor procede a modificar tu contraseña, la cual debera contener una letra minuscula, una mayuscula, un numero y un caracter especail como minimo";
-                           // }
-                        message = "Su sesion se inicio correctamente";
+                        message = "Sesion iniciado";
 
                     }
                     else
                     {
-                        message = "Contraseña no valida, por favor recuerde que tiene 3 intentos para ingresar al sistema, luego de esto su usuario sera bloqueado";
+                        message = "Contraseña no valida, tiene 3 intentos";
 
                         DataAccess.UsuarioDAL.AddItemToLockedUser(username);
 
@@ -69,7 +65,7 @@ namespace YouOpine2.BusinessLogic
                 }
                 else
                 {
-                message = "Usuario no existe, por favor de validarlo e intentarlo nuevamente";
+                message = "Usuario no existe";
                 
 
                 }

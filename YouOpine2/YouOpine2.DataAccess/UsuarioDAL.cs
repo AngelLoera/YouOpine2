@@ -45,7 +45,7 @@ namespace YouOpine2.DataAccess
             using (YouOpine2DbContext dbCtx = new YouOpine2DbContext())
             {
                 var query = dbCtx.Usuarios.Where(x => x.Username == username).First().ErrorCount;
-                if (query > 2)
+                if (query > 3)
                     IsLocked = true;
             }
             return IsLocked;

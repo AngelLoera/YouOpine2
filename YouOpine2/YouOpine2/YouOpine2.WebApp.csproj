@@ -184,6 +184,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="IronManOp.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Nuevas.aspx" />
     <Content Include="TopReseñas.aspx" />
@@ -253,6 +254,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IronManOp.aspx.cs">
+      <DependentUpon>IronManOp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IronManOp.aspx.designer.cs">
+      <DependentUpon>IronManOp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Libros.aspx.cs">
       <DependentUpon>Libros.aspx</DependentUpon>
