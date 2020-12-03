@@ -5,11 +5,33 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>YouOpine</title>
+    <link rel="stylesheet" href="Menu.css" />
+     <link rel="stylesheet" href="FormPag.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <!-- Aqui empieza el menu-->
+        <!-- Primera linea HEADER(logo,Barra de busqueda,Inicio de sesion, Foto de usuario)-->
+        <header>
+            <p>You Opine</p>
+            <input id="BB" type="text" placeholder="Buscar..." />
+
+        </header>
+        <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
+        <nav class="menu-main">
+
+            <a href="Peliculas.aspx">Peliculas</a>
+            <a href="Videojuegos.aspx">Videojuegos</a>
+            <a href="Libros.aspx">Libros</a>
+            <a href="TopReseñas.aspx">Top reseñas</a>
+            <a href="Nuevas.aspx">Nuevas</a>
+            <a href="#">Descubre</a>
+            <a href="#">Reglas reseñas</a>
+
+        </nav>
+        <!-- Aqui termina el menu -->
+        <div id="Log">
            <table style="width: 60%">
                <tr>
                    <td></td>

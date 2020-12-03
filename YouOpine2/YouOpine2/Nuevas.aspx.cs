@@ -13,6 +13,17 @@ namespace YouOpine2
         public List<Peliculas> MyList = null;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["login"] != null)
+            {
+                if (Session["login"].ToString() != "Angel_Loera")
+                {
+                    Response.Redirect("~/Login.aspx");
+                }
+            }
+            else
+            {
+                Response.Redirect("~/Login.aspx");
+            }
         }
     }
 }

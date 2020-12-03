@@ -24,8 +24,8 @@
             <a href="Peliculas.aspx">Peliculas</a>
             <a href="Videojuegos.aspx">Videojuegos</a>
             <a href="Libros.aspx">Libros</a>
-            <a href="TopReseñas.aspx">Top reseñas</a>
-            <a href="Nuevas.aspx" class="active">Nuevas</a>
+            <a href="TopReseñas.aspx"class="active">Top reseñas</a>
+            <a href="Nuevas.aspx" >Nuevas</a>
             <a href="#">Descubre</a>
             <a href="#">Reglas reseñas</a>
 

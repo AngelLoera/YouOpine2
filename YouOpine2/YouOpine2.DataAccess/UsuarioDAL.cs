@@ -8,6 +8,7 @@ namespace YouOpine2.DataAccess
 {
     public class UsuarioDAL
     {
+        #region LogInInSystem
         public static bool LogInInSystem(string username, string password)
         {
             bool IsLogged = false;
@@ -21,5 +22,48 @@ namespace YouOpine2.DataAccess
             }
             return IsLogged;
         }
+        #endregion
+
+        #region IsUsernameValid
+        public static bool IsUsernameValid(string username)
+        {
+            bool IsValid = false;
+            using (YouOpine2DbContext dbCtx = new YouOpine2DbContext())
+            {
+                var query = dbCtx.Usuarios.Where(x => x.Username == username).SingleOrDefault();
+                if (query != null)
+                    IsValid = true;
+            }
+            return IsValid;
+        }
+        #endregion
+
+        #region IsUserLocked
+        public static bool IsUserLocked(string username)
+        {
+            bool IsLocked = false;
+            using (YouOpine2DbContext dbCtx = new YouOpine2DbContext())
+            {
+                var query = dbCtx.Usuarios.Where(x => x.Username == username).First().ErrorCount;
+                if (query > 2)
+                    IsLocked = true;
+            }
+            return IsLocked;
+        }
+        #endregion
+
+        #region AddItemToLockedUser
+        public static void AddItemToLockedUser(string username)
+        {
+            using (YouOpine2DbContext dbCtx = new YouOpine2DbContext())
+            {
+                var obj = dbCtx.Usuarios.Where(x => x.Username == username).SingleOrDefault();
+                int items = obj.ErrorCount;
+                items = items + 1;
+                obj.ErrorCount = items;
+                dbCtx.SaveChanges();
+            }
+        }
+        #endregion
     }
 }

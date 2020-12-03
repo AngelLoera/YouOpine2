@@ -108,6 +108,10 @@
     <Compile Include="Migrations\202012022327149_La tabla de usuario fue creada.designer.cs">
       <DependentUpon>202012022327149_La tabla de usuario fue creada.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012030247228_Add colum for validation user.cs" />
+    <Compile Include="Migrations\202012030247228_Add colum for validation user.designer.cs">
+      <DependentUpon>202012030247228_Add colum for validation user.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioDAL.cs" />
@@ -126,6 +130,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202012022327149_La tabla de usuario fue creada.resx">
       <DependentUpon>202012022327149_La tabla de usuario fue creada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012030247228_Add colum for validation user.resx">
+      <DependentUpon>202012030247228_Add colum for validation user.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

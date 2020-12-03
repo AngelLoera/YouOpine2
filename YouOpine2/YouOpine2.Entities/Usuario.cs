@@ -29,5 +29,8 @@ namespace YouOpine2.Entities
         [MaxLength(25, ErrorMessage = "La contraseña debe tener 25 caracteres o menos"), MinLength(5)]
 
         public string Password { get; set; }
+
+        public int ErrorCount { get; set; }
+
     }
 }

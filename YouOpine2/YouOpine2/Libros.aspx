@@ -17,7 +17,6 @@
             <p>You Opine</p>
             <input id="BB" type="text" placeholder="Buscar..." />
             <a href="#">
-                <input class="BP" type="button" value=" Acceder " /></a>
 
         </header>
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
@@ -27,7 +26,7 @@
             <a href="Videojuegos.aspx">Videojuegos</a>
             <a href="Libros.aspx" class="active">Libros</a>
             <a href="TopReseñas.aspx">Top reseñas</a>
-            <a href="#">Nuevas</a>
+            <a href="Nuevas.aspx">Nuevas</a>
             <a href="#">Descubre</a>
             <a href="#">Reglas reseñas</a>
 
