@@ -6,8 +6,9 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>You Opine</title>
-    <link rel="stylesheet" href="Menu.css" />
     <link rel="stylesheet" href="FormPag.css" />
+    <link rel="stylesheet" href="Menu.css" />
+    
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,8 +17,6 @@
         <header>
             <p>You Opine</p>
             <input id="BB" type="text" placeholder="Buscar..." />
-            <a href="#">
-                <input class="BP" type="button" value=" Acceder " /></a>
 
         </header>
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
@@ -95,10 +94,14 @@
                                     <p>
                                         Este título nos transportará a un mundo oscuro de fantasía en el que los sucesos están dictados por el azar de los dados. Acompaña a Even y Dicey en esta aventura donde desafiar el azar será la única alternativa.    
                                     </p>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de los libros -->
-                                    <a href="#">
-                                        <img src="#" /></a>
+                                    
                                 </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th><!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                        <a href="#">
+                            <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a> </th>
                             </tr>
                         </table>
                     </div>
@@ -162,10 +165,14 @@
                                     <p>
                                         Este título es un remake del original que salió en 2009 para PS3, ahora con los potentes gráficos de la PS5 y nuevos modos de juego. Regresa a Boletaria para luchar contra todo tipo de criaturas y forjar tu camino hacia la gloria.
                                     </p>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de los libros -->
-                                    <a href="#">
-                                        <img src="#" /></a>
+                                    
                                 </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th><!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                        <a href="#">
+                            <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a> </th>
                             </tr>
                         </table>
                     </div>

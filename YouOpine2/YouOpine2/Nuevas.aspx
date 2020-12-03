@@ -4,10 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>YouOpine</title>
-    
+    <link rel="stylesheet" href="FormPag.css" />
     <link rel="stylesheet" href="Menu.css" />
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,8 +17,6 @@
         <header>
             <p>You Opine</p>
             <input id="BB" type="text" placeholder="Buscar..." />
-            <a href="#">
-                <input class="BP" type="button" value=" Acceder " /></a>
 
         </header>
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
@@ -33,9 +32,12 @@
 
         </nav>
         <!-- Aqui termina el menu -->
-            <br />
-         
-            <br />
+        <!-- Aqui empieza el contenido de la pagina -->
+        <!-- Primera linea SECTION Contiene todos los articles-->
+         <section>
+            <h1 id="p">Nuevas</h1>
+            <!-- Segunda linea (Imagen y desprescripcion de los libros,Agregar opinion)-->
+         </section>
     </form>
 </body>
 </html>

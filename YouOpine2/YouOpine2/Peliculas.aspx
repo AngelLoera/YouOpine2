@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>You opine</title>
+    <title>You Opine</title>
     <link rel="stylesheet" href="FormPag.css" />
     <link rel="stylesheet" href="Menu.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,8 +17,6 @@
         <header>
             <p>You Opine</p>
             <input id="BB" type="text" placeholder="Buscar..." />
-            <a href="#">
-                <input class="BP" type="button" value=" Acceder " /></a>
 
         </header>
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
@@ -99,13 +97,20 @@
                     Como consejero delegado de Industrias Stark, el mayor contratista de armamento del Gobierno norteamericano,
                      Tony se ha hecho célebre por proteger durante décadas los intereses norteamericanos en todo el mundo.
                                     </p>
+
                                 </th>
-                                
+
                             </tr>
-                            <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
                                     <a href="#">
-                                        <i class="fa fa-plus-circle" aria-hidden="true"style="font-size:100px;"></i></a>
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+
                         </table>
+
                     </div>
                 </div>
             </article>
@@ -170,13 +175,19 @@
                          Muertos donde piensa que está buscando el alma de uno de los músicos más importantes de México, Ernesto de la Cruz,
                           pero acaba encontrando algo mucho más importante: la esencia del amor de su familia.
                                     </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
                                     <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
                                     <a href="#">
-                                        <img src="#" /></a>
-                                </th>
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
                             </tr>
 
                         </table>
+
                     </div>
                 </div>
             </article>

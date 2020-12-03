@@ -35,6 +35,34 @@ table, tr, th {
     table th {
         font-weight: normal;
     }
-#Log{
-    background-color:yellow;
+#Log {
+    padding-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+.Button {
+    background-color: #393939;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.Button:hover {
+    background-color: plum;
+}
+.TxtText {
+    border-color:plum;
+    padding: 10px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
 }

@@ -53,7 +53,7 @@ namespace YouOpine2.BusinessLogic
                            // {
                            //     message = "Contraseña inicial insegura, por favor procede a modificar tu contraseña, la cual debera contener una letra minuscula, una mayuscula, un numero y un caracter especail como minimo";
                            // }
-                        message = "Bienvenido al sistema";
+                        message = "Su sesion se inicio correctamente";
 
                     }
                     else

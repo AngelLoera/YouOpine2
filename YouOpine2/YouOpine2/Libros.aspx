@@ -6,8 +6,9 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>You Opine</title>
-    <link rel="stylesheet" href="Menu.css" />
     <link rel="stylesheet" href="FormPag.css" />
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,7 +17,6 @@
         <header>
             <p>You Opine</p>
             <input id="BB" type="text" placeholder="Buscar..." />
-            <a href="#">
 
         </header>
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
@@ -85,15 +85,20 @@
                                 <th>
                                     <p>
                                         En un mundo pragmático y utilitario, la pregunta ¿y eso para qué sirve? acecha siempre cualquier actividad que realicemos, o cualquier meta que persigamos. Las artes en general, y la literatura en particular, no han escapado de ella y más de un lector se ha enfrentado a la pregunta de por qué y para qué leer. 
-¿Por qué leer novelas? Se preguntan los lectores.
-¿Por qué escribir novelas? Se preguntan los escritores.
-¿Para qué sirve leer novelas? Se preguntan todos.
-A estas preguntas trata de responder Juan Gabriel Vásquez en su último libro de ensayos Viajes con un mapa en blanco, publicado por Alfaguara en 2018. 
+                                        ¿Por qué leer novelas? Se preguntan los lectores.
+                                        ¿Por qué escribir novelas? Se preguntan los escritores.
+                                        ¿Para qué sirve leer novelas? Se preguntan todos.
+                                        A estas preguntas trata de responder Juan Gabriel Vásquez en su último libro de ensayos Viajes con un mapa en blanco, publicado por Alfaguara en 2018. 
                                     </p>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de los libros -->
-                                    <a href="#">
-                                        <img src="#" /></a>
+
                                 </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
                             </tr>
                         </table>
                     </div>
@@ -148,15 +153,19 @@ A estas preguntas trata de responder Juan Gabriel Vásquez en su último libro d
                                 <th>
                                     <p>
                                         La guerra del arte es un libro de Steven Pressfield que me quería leer hace rato por varias razones.
-Primero, por el título y su juego de referencia con el conocido El arte de la guerra de Sun Tzu; segundo, porque había escuchado muchísimo de él.
-Además, lo recomendaban youtubers, bloggers y las opiniones en amazon y Goodreads eran buenísimas en su mayoría. 
+                                        Primero, por el título y su juego de referencia con el conocido El arte de la guerra de Sun Tzu; segundo, porque había escuchado muchísimo de él.
+                                        Además, lo recomendaban youtubers, bloggers y las opiniones en amazon y Goodreads eran buenísimas en su mayoría. 
                                     </p>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de los libros -->
-                                    <a href="#">
-                                        <img src="#" /></a>
+
                                 </th>
                             </tr>
-
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
                         </table>
                     </div>
                 </div>

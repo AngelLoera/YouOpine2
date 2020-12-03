@@ -15,7 +15,6 @@
         <!-- Primera linea HEADER(logo,Barra de busqueda,Inicio de sesion, Foto de usuario)-->
         <header>
             <p>You Opine</p>
-            <input id="BB" type="text" placeholder="Buscar..." />
 
         </header>
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
@@ -32,66 +31,36 @@
         </nav>
         <!-- Aqui termina el menu -->
         <div id="Log">
+        <div id="Log2">
            <table style="width: 60%">
                <tr>
-                   <td></td>
                    <td style="text-align:center">
-                       <asp:Label ID="lblUserID" runat="server" Text="UserID :"></asp:Label>
+                       <asp:Label ID="lblUserID" runat="server" Text="Nombre de Usuario"></asp:Label><br />
+                       <asp:TextBox class="TxtText" ID="txtUserID" runat="server"></asp:TextBox>
                    </td>
-                   <td style="text-align:center">
-                       <asp:TextBox ID="txtUserID" runat="server"></asp:TextBox>
-                   </td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
                </tr>
                <tr>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-               </tr>
-               <tr>
-                   <td></td>
                    <td style="text-align:center">
-                       <asp:Label ID="lblPassword" runat="server" Text="Password :"></asp:Label>
+                       <br />
+                       <asp:Label ID="lblPassword" runat="server" Text="Contraseña"></asp:Label><br />
+                       <asp:TextBox class="TxtText" ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
                    </td>
+               </tr>
+               <tr>
                    <td style="text-align:center">
-                       <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
+                       <br />
+                    <asp:Button class="Button" ID="btnIniciarsesion" runat="server" BorderStyle="None" Text="Iniciar sesion" OnClick="btnIniciarsesion_Click" />
                    </td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
                </tr>
                <tr>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-               </tr>
-               <tr>
-                   <td></td>
-                   <td></td>
-                   <td style="text-align:center">
-                    <asp:Button ID="btnIniciarsesion" runat="server" BorderStyle="None" Text="Iniciar sesion" OnClick="btnIniciarsesion_Click" />
-                   </td>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-               </tr>
-               <tr>
-                   <td></td>
-                   <td></td>
                    <td>
+                       <br />
                        <asp:Label ID="lblResultado" runat="server"></asp:Label>
                    </td>
                </tr>
            </table>
         </div>
+      </div>
     </form>
 </body>
 </html>
