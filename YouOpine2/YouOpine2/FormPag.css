@@ -44,6 +44,20 @@ table, tr, th {
     justify-content: center;
     font-family: Arial;
 }
+#Log3 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+.TxtText {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid plum;
+}
 .Button {
     background-color: #393939;
     border: none;
@@ -58,10 +72,4 @@ table, tr, th {
 }
 .Button:hover {
     background-color: plum;
-}
-.TxtText {
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 20px 20px;
 }

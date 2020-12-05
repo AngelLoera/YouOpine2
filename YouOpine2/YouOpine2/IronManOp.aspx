@@ -36,12 +36,9 @@
         <section>
             <h1 id="p">IronMan</h1>
             <!-- Segunda linea (Imagen y desprescripcion de los libros,Agregar opinion)-->
-            <div id ="Log">
-                <div>
-                <input class="TxtText" type="text" />
+            <div id ="Log3">
 
                 </div>
-            </div>
         </section>
     </form>
 </body>
