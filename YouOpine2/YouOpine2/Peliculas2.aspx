@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Nuevas.aspx.cs" Inherits="YouOpine2.Nuevas" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Peliculas2.aspx.cs" Inherits="YouOpine2.Peliculas2" %>
 
 <!DOCTYPE html>
 
@@ -22,11 +22,11 @@
         <!-- Segunda linea NAV(botones hacia los distintos documentos)-->
         <nav class="menu-main">
 
-            <a href="Peliculas.aspx">Peliculas</a>
+            <a href="Peliculas.aspx" class="active">Peliculas</a>
             <a href="Videojuegos.aspx">Videojuegos</a>
             <a href="Libros.aspx">Libros</a>
             <a href="TopReseñas.aspx">Top reseñas</a>
-            <a href="Nuevas.aspx" class="active">Nuevas</a>
+            <a href="Nuevas.aspx">Nuevas</a>
             <a href="Descubre.aspx">Descubre</a>
             <a href="ReglasReseñas.aspx">Reglas reseñas</a>
 
@@ -35,55 +35,57 @@
         <!-- Aqui empieza el contenido de la pagina -->
         <!-- Primera linea SECTION Contiene todos los articles-->
         <section>
-            <h1 id="p">Nuevas</h1>
-            <!-- Segunda linea (Imagen y desprescripcion de los libros,Agregar opinion)-->
+            <h1 id="p">Peliculas</h1>
+            <!-- Segunda linea (Imagen y desprescripcion de las peliculas,Agregar opinion)-->
+
             <article>
-                <!-- Aqui va la imagen de los libros -->
+                <!-- Aqui va la imagen de la pelicula -->
                 <br />
                 <div id="imp1">
-                    <img src="https://media.playstation.com/is/image/SCEA/cyberpunk-2077-box-art-01-ps4-us-06jun19?$native_nt$" width="300px" height="400px">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81g8l9hN46L._AC_SL1038_.jpg" width="300px" height="400px">
+
                     <!-- Aqui va la información -->
                     <div id="infp1">
-                        <h1>Cyberpunk 2077</h1>
+                        <h1>Escuadrón Suicida</h1>
                         <table>
                             <tr>
                                 <th>
                                     <b>Título original:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Cyberpunk 2077.</p>
+                                    <p>Escuadrón Suicida.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Desarrollador:&nbsp&nbsp</b>
+                                    <b>Año:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>CD Projekt, CD Projekt RED.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Publisher:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>CD Projekt, CD Projekt RED.</p>
+                                    <p>2016.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Genero:&nbsp&nbsp</b>
+                                    <b>Duración:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Videojuego de rol de acción, Videojuego de mundo abierto, Videojuego de disparos en primera persona.</p>
+                                    <p>2h 17min.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
+                                    <b>Pais:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>10 / diciembre / 2020.</p>
+                                    <p>Estados Unidos.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Dirección:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>David Ayer.</p>
                                 </th>
                             </tr>
                             <tr>
@@ -92,10 +94,12 @@
                                 </th>
                                 <th>
                                     <p>
-                                        El juego sigue la historia de V, un arma mercenaria de Night City, la metrópolis más violenta y peligrosa del futuro controlado por corporaciones. Una completa creación del personaje permitirá a los jugadores a elegir el género de V, su apariencia visual, su clase, así como su pasado. Todo dará forma al juego.    
+                                        <!-- Aqui va la sinopsis -->
+                                        Los peores villanos de las cárceles y hospitales psiquiátricos, todos poseedores de cualidades especiales son liberados por el gobierno para conformar un equipo de luchadores de élite y detener a una misteriosa y poderosa entidad. Mientras tanto, el Joker actúa por su cuenta, sembrando el caos a su paso.
                                     </p>
 
                                 </th>
+
                             </tr>
                             <tr>
                                 <th><b>Ingresar opinion</b></th>
@@ -104,151 +108,11 @@
                                     <a href="#">
                                         <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
                             </tr>
+
                         </table>
+
                     </div>
                 </div>
-
-            </article>
-            <article>
-                <!-- Aqui va la imagen del libro -->
-                <div id="imp1">
-                    <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20201001173129/demons-souls-sku-standard-edition-ps5-en-17aug20.png" width="300px" height="400px">
-                    <!-- Aqui va la información -->
-                    <div id="infp1">
-                        <h1>Demon's Souls</h1>
-                        <table>
-                            <tr>
-                                <th>
-                                    <b>Título original:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Demon's Souls.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Desarrollador:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Bluepoint Games.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Publisher:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Soni Interactive Entretainment.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Genero:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Accion, Hack and Slash,RPG.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>02 / 11 / 20.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Sinopsis:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>
-                                        Este título es un remake del original que salió en 2009 para PS3, ahora con los potentes gráficos de la PS5 y nuevos modos de juego. Regresa a Boletaria para luchar contra todo tipo de criaturas y forjar tu camino hacia la gloria.
-                                    </p>
-
-                                </th>
-                            </tr>
-                            <tr>
-                                <th><b>Ingresar opinion</b></th>
-                                <th>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
-                                    <a href="#">
-                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <!-- Aqui va la imagen de los libros -->
-                <div id="imp1">
-                    <img src="https://media.vandal.net/m/44223/the-last-of-us-part-ii-20199271734386_1.jpg" width="300px" height="400px">
-                    <!-- Aqui va la información -->
-                    <div id="infp1">
-                        <h1>The Last of Us Part II</h1>
-                        <table>
-                            <tr>
-                                <th>
-                                    <b>Título original:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>The Last of Us Part II.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Desarrollador:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Naughty Dog.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Publisher:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Sony Interactive Entertainment.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Genero:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Videojuego de acción-aventura.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>19 / junio / 2020.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Sinopsis:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>
-                                        Cuando un evento violento perturba esa paz, Ellie se embarca en un viaje implacable para llevar a cabo justicia y encontrar una solución. Mientras caza a los responsables, uno por uno, se enfrentará a las devastadoras repercusiones físicas y emocionales de sus acciones.     
-                                    </p>
-
-                                </th>
-                            </tr>
-                            <tr>
-                                <th><b>Ingresar opinion</b></th>
-                                <th>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
-                                    <a href="#">
-                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-
             </article>
             <article>
                 <!-- Aqui va la imagen de la pelicula -->
@@ -401,7 +265,239 @@
                     </div>
                 </div>
             </article>
+            <article>
+                <!-- Aqui va la imagen de la pelicula -->
+
+                <div id="imp1">
+                    <img src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/aquaman_ver4_xlg.jpg" width="300px" height="400px">
+
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Aquaman</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Aquaman.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2018.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Duración:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2h 22min.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Pais:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Estados Unidos.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Dirección:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>James Wan.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        <!-- Aqui va la sinopsis -->
+                                        Aquaman debe recuperar el legendario Tridente de Atlan para salvar a la ciudad subacuática de Atlantis, y al mundo de la superficie, de su hermano hambriento de poder.
+                                    </p>
+
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </article>
+            <article>
+                <!-- Aqui va la imagen de la pelicula -->
+
+                <div id="imp1">
+                    <img src="https://cdn.shopify.com/s/files/1/1194/1408/products/9781608877492_-_Frozen_Poster_Collection_A_1400x.jpg?v=15713" width="300px" height="400px">
+
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Frozen: una aventura congelada.</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Frozen: una aventura congelada.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2013.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Duración:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>1h 49min.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Pais:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Estados Unidos.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Dirección:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Jennifer Lee, Chris Buck.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        <!-- Aqui va la sinopsis -->
+                                        Una profecía condena al reino de Arandelle a vivir en un invierno eterno. La joven Anna, el temerario montañero Kristoff y el reno Sven deben emprender un viaje épico y lleno de aventuras en busca de Elsa, la hermana de Anna y Reina de las Nieves. Ella es la única que puede poner fin al gélido hechizo.
+                                    </p>
+
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </article>
+            <article>
+                <!-- Aqui va la imagen de la pelicula -->
+
+                <div id="imp1">
+                    <img src="https://i.pinimg.com/originals/b1/69/17/b1691700e6c0a4df8652efcb9fd9bddb.jpg" width="300px" height="400px">
+
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Moana</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Moana: Un mar de aventuras.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2016.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Duración:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>1h 53min.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Pais:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Estados Unidos.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Dirección:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Ron Clements, John Musker.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        <!-- Aqui va la sinopsis -->
+                                        Vaiana Waialiki es una joven entusiasta del mar y la única hija de un jefe marinero. Cuando los marineros de su aldea no pueden pescar ningún pez y todas las cosechas fallan, Vaiana descubre que el semidiós Maui causó el infortunio después de robar el corazón de la diosa Te Fiti. La única manera de salvar el destino de la isla es persuadiendo a Maui para que le devuelva el corazón a Te Fiti. Entonces, Vaiana emprende una arriesgada aventura para salvar a su aldea junto al semidiós Maui.
+                                    </p>
+
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </article>
         </section>
+        <div>
+            <a href="Peliculas.aspx">
+                <input type="button" class="Button" value="Atras" /></a>
+        </div>
         <!-- Aqui termina el SECTION -->
         <!-- Ultima linea siempre debe ser el FOOTER (Siempre el mismo texto, hipervinculo a las reglas) -->
         <footer>

@@ -27,8 +27,8 @@
             <a href="Libros.aspx" class="active">Libros</a>
             <a href="TopReseñas.aspx">Top reseñas</a>
             <a href="Nuevas.aspx">Nuevas</a>
-            <a href="#">Descubre</a>
-            <a href="#">Reglas reseñas</a>
+            <a href="Descubre.aspx">Descubre</a>
+            <a href="ReglasReseñas.aspx">Reglas reseñas</a>
 
         </nav>
         <!-- Aqui termina el menu -->
@@ -170,11 +170,267 @@
                     </div>
                 </div>
             </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+                <div id="imp1">
+                    <img src="https://librosentrealgodones.files.wordpress.com/2018/08/a-corazc3b3n-abierto-0.jpeg?w=1" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>A corazón abierto</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>A corazón abierto.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año de publicación:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2020.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Páginas:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>384.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Autor:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Elvira Lindo.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        Elvira Lindo narra en A corazón abierto la historia de un hombre y una mujer que vivieron una gran pasión, un amor feroz, agitado siempre por la presencia de los niños, por los cambios de domicilio, por la enfermedad y por unas personalidades que parecían conjurarse en contra de una vida serena.  
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+                <div id="imp1">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71FGe5VYR7L.jpg" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>La madre de Frankenstein</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>La madre de Frankenstein.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año de publicación:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2020.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Páginas:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>558.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Autor:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Almudena Grandes.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        En 1954, el joven psiquiatra Germán Velázquez vuelve a España para trabajar en el manicomio de mujeres de Ciempozuelos, al sur de Madrid. Tras salir al exilio en 1939, ha vivido quince años en Suiza, acogido por la familia del doctor Goldstein.   
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+                <div id="imp1">
+                    <img src="https://static.megustaleer.com/images/libros_650_x/EAL5402A.jpg" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Casas y tumbas.</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Casas y tumbas.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año de publicación:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>2020.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Páginas:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>424.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Autor:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Bernardo Atxaga.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        Tras pasar una temporada en un internado en el sur de Francia, un niño llamado Elías se ha quedado sin habla. En el pequeño pueblo de Ugarte, en el País Vasco, entablará amistad con Luis y Martín, dos gemelos que le ayudarán a recuperar las palabras.    
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+                <div id="imp1">
+                    <img src="https://m.media-amazon.com/images/I/41ooQCCWw5L.jpg" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>El alquimista</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>El alquimista.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Año de publicación:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>1988.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Páginas:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>192.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Autor:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Paulo Coelho.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        El Alquimista relata las aventuras de Santiago, un joven pastor andaluz que un día emprende un viaje por las arenas del desierto en busca de un tesoro. Lo que empieza como la búsqueda de bienes mundanos se convertirá en el descubrimiento del tesoro interior.  
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
         </section>
+        <div>
+            <a href="Libros2.aspx">
+                <input type="button" class="Button" value="Siguiente" /></a>
+        </div>
         <!-- Aqui termina el SECTION -->
         <!-- Ultima linea siempre debe ser el FOOTER (Siempre el mismo texto, hipervinculo a las reglas) -->
         <footer>
-            <p><b>You Opine</b> Opiniones libres y sinceras | Diseñador: Diego Montemayor |<a href="#"> Reglas de reseñas</a></p>
+            <p><b>You Opine</b> Opiniones libres y sinceras | Diseñador: Diego Montemayor |<a href="ReglasReseñas.aspx"> Reglas de reseñas</a></p>
         </footer>
     </form>
 </body>

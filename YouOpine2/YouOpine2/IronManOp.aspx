@@ -8,6 +8,11 @@
     <title>YouOpine</title>
     <link rel="stylesheet" href="Menu.css" />
      <link rel="stylesheet" href="FormPag.css" />
+    <style type="text/css">
+        .auto-style1 {
+            margin-top: 0px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -37,8 +42,16 @@
             <h1 id="p">IronMan</h1>
             <!-- Segunda linea (Imagen y desprescripcion de los libros,Agregar opinion)-->
             <div id ="Log3">
-
+                <asp:TextBox ID="TxtComentario" runat="server" placeholder="¿Que opinas?" CssClass="auto-style1" Height="63px" Width="612px"></asp:TextBox>
+                <asp:Button ID="Button1" runat="server" Text="Agregar" OnClick="Button1_Click" />
                 </div>
+            
+                <br />
+            <div id ="Log4">
+                <div>
+                <asp:GridView ID="gvComent" runat="server"></asp:GridView>
+                </div>
+            </div>
         </section>
     </form>
 </body>

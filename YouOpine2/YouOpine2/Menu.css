@@ -9,12 +9,12 @@ header {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
 }
 
 header p {
         font-size: 30px;
         padding-left: 2%;
-        padding-right: 2%;
         font-weight: bold;
 }
 
@@ -35,7 +35,7 @@ header p {
     height: 55px;
 }
 
-.menu-main a {
+    .menu-main a {
         flex: 1;
         font-family: arial;
         font-size: 20px;
@@ -44,7 +44,8 @@ header p {
         text-decoration: none;
         justify-content: center;
         align-items: center;
-}
+        width: 100%;
+    }
 
 .menu-main a:hover {
         background: rgba(0,0,0, .1);

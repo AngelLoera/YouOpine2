@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Nuevas.aspx.cs" Inherits="YouOpine2.Nuevas" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Videojuegos2.aspx.cs" Inherits="YouOpine2.Videojuegos2" %>
 
 <!DOCTYPE html>
 
@@ -23,10 +23,10 @@
         <nav class="menu-main">
 
             <a href="Peliculas.aspx">Peliculas</a>
-            <a href="Videojuegos.aspx">Videojuegos</a>
+            <a href="Videojuegos.aspx" class="active">Videojuegos</a>
             <a href="Libros.aspx">Libros</a>
             <a href="TopReseñas.aspx">Top reseñas</a>
-            <a href="Nuevas.aspx" class="active">Nuevas</a>
+            <a href="Nuevas.aspx">Nuevas</a>
             <a href="Descubre.aspx">Descubre</a>
             <a href="ReglasReseñas.aspx">Reglas reseñas</a>
 
@@ -35,152 +35,11 @@
         <!-- Aqui empieza el contenido de la pagina -->
         <!-- Primera linea SECTION Contiene todos los articles-->
         <section>
-            <h1 id="p">Nuevas</h1>
+            <h1 id="p">Videojuegos</h1>
             <!-- Segunda linea (Imagen y desprescripcion de los libros,Agregar opinion)-->
             <article>
                 <!-- Aqui va la imagen de los libros -->
                 <br />
-                <div id="imp1">
-                    <img src="https://media.playstation.com/is/image/SCEA/cyberpunk-2077-box-art-01-ps4-us-06jun19?$native_nt$" width="300px" height="400px">
-                    <!-- Aqui va la información -->
-                    <div id="infp1">
-                        <h1>Cyberpunk 2077</h1>
-                        <table>
-                            <tr>
-                                <th>
-                                    <b>Título original:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Cyberpunk 2077.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Desarrollador:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>CD Projekt, CD Projekt RED.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Publisher:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>CD Projekt, CD Projekt RED.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Genero:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Videojuego de rol de acción, Videojuego de mundo abierto, Videojuego de disparos en primera persona.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>10 / diciembre / 2020.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Sinopsis:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>
-                                        El juego sigue la historia de V, un arma mercenaria de Night City, la metrópolis más violenta y peligrosa del futuro controlado por corporaciones. Una completa creación del personaje permitirá a los jugadores a elegir el género de V, su apariencia visual, su clase, así como su pasado. Todo dará forma al juego.    
-                                    </p>
-
-                                </th>
-                            </tr>
-                            <tr>
-                                <th><b>Ingresar opinion</b></th>
-                                <th>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
-                                    <a href="#">
-                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-
-            </article>
-            <article>
-                <!-- Aqui va la imagen del libro -->
-                <div id="imp1">
-                    <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20201001173129/demons-souls-sku-standard-edition-ps5-en-17aug20.png" width="300px" height="400px">
-                    <!-- Aqui va la información -->
-                    <div id="infp1">
-                        <h1>Demon's Souls</h1>
-                        <table>
-                            <tr>
-                                <th>
-                                    <b>Título original:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Demon's Souls.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Desarrollador:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Bluepoint Games.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Publisher:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Soni Interactive Entretainment.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Genero:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>Accion, Hack and Slash,RPG.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>02 / 11 / 20.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Sinopsis:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>
-                                        Este título es un remake del original que salió en 2009 para PS3, ahora con los potentes gráficos de la PS5 y nuevos modos de juego. Regresa a Boletaria para luchar contra todo tipo de criaturas y forjar tu camino hacia la gloria.
-                                    </p>
-
-                                </th>
-                            </tr>
-                            <tr>
-                                <th><b>Ingresar opinion</b></th>
-                                <th>
-                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
-                                    <a href="#">
-                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <!-- Aqui va la imagen de los libros -->
                 <div id="imp1">
                     <img src="https://media.vandal.net/m/44223/the-last-of-us-part-ii-20199271734386_1.jpg" width="300px" height="400px">
                     <!-- Aqui va la información -->
@@ -251,52 +110,52 @@
 
             </article>
             <article>
-                <!-- Aqui va la imagen de la pelicula -->
-                <div id="imp1">
-                    <img src="https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2019/09/aves-de-presa-Poster.jpg?resize=800%2C1186&ssl=1" width="300px" height="400px">
+                <!-- Aqui va la imagen de los libros -->
 
+                <div id="imp1">
+                    <img src="https://d2skuhm0vrry40.cloudfront.net/2013/articles//a/1/5/5/9/0/5/8/WD_key_art.jpg.jpg/EG11/resize/375x-1/quality/75/format/jpg" width="300px" height="400px">
                     <!-- Aqui va la información -->
                     <div id="infp1">
-                        <h1>Aves de presa</h1>
+                        <h1>Watch Dogs</h1>
                         <table>
                             <tr>
                                 <th>
                                     <b>Título original:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Aves de presa</p>
+                                    <p>Watch Dogs.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Año:&nbsp&nbsp</b>
+                                    <b>Desarrollador:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>2020.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Duración:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>1h 49min.</p>
+                                    <p>Ubisoft Montreal, Ubisoft Toronto.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Pais:&nbsp&nbsp</b>
+                                    <b>Publisher:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Estados Unidos.</p>
+                                    <p>Ubisoft.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Dirección:&nbsp&nbsp</b>
+                                    <b>Genero:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Cathy Yan.</p>
+                                    <p>Acción Aventura.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>27 / mayo / 2014.</p>
                                 </th>
                             </tr>
                             <tr>
@@ -305,12 +164,10 @@
                                 </th>
                                 <th>
                                     <p>
-                                        <!-- Aqui va la sinopsis -->
-                                        Después de separarse de Joker, Harley Quinn y otras tres heroínas, Canario Negro, Cazadora y Renée Montoya, unen sus fuerzas para salvar a una niña del malvado rey del crimen Máscara Negra.
+                                        En 'Watch Dogs' viajamos hasta una Chicago virtual para ponernos en la piel de Aiden Pearce, un hacker al estilo Operación Swordfish que quiere vengar la muerte de un familiar mientras lucha contra el crimen y destapa la corrupción.    
                                     </p>
 
                                 </th>
-
                             </tr>
                             <tr>
                                 <th><b>Ingresar opinion</b></th>
@@ -319,60 +176,58 @@
                                     <a href="#">
                                         <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
                             </tr>
-
                         </table>
-
                     </div>
                 </div>
+
             </article>
             <article>
-                <!-- Aqui va la imagen de la pelicula -->
+                <!-- Aqui va la imagen de los libros -->
 
                 <div id="imp1">
-                    <img src="https://ae01.alicdn.com/kf/H4e81f912edb64be2a6d9b4c7cdc13552W.jpg_q50.jpg" width="300px" height="400px">
-
+                    <img src="https://cdn-wp.thesportsrush.com/2020/10/85669fd1-sxnvbo.png" width="300px" height="400px">
                     <!-- Aqui va la información -->
                     <div id="infp1">
-                        <h1>¡Shazam!</h1>
+                        <h1>Among us</h1>
                         <table>
                             <tr>
                                 <th>
                                     <b>Título original:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>¡Shazam!</p>
+                                    <p>Among us.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Año:&nbsp&nbsp</b>
+                                    <b>Desarrollador:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>2019.</p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <b>Duración:&nbsp&nbsp</b>
-                                </th>
-                                <th>
-                                    <p>2h 12min.</p>
+                                    <p>InnerSloth.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Pais:&nbsp&nbsp</b>
+                                    <b>Publisher:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>Estados Unidos.</p>
+                                    <p>InnerSloth.</p>
                                 </th>
                             </tr>
                             <tr>
                                 <th>
-                                    <b>Dirección:&nbsp&nbsp</b>
+                                    <b>Genero:&nbsp&nbsp</b>
                                 </th>
                                 <th>
-                                    <p>David F. Sandberg.</p>
+                                    <p>Videojuego social, Videojuego independiente, Juego de deducción social.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>15 / junio / 2018.</p>
                                 </th>
                             </tr>
                             <tr>
@@ -381,12 +236,10 @@
                                 </th>
                                 <th>
                                     <p>
-                                        <!-- Aqui va la sinopsis -->
-                                        Billy Batson, un astuto joven de 14 años, se transforma en el superhéroe Shazam, pero sus poderes son puestos a prueba cuando se enfrenta al mal.
+                                        Se trata de un juego multijugador online en el que pueden participar de 4 a 10 personas, y donde una o dos de ellas (dependiendo del número de participantes) son asignadas como enemigos que deben matar a los demás sin que el resto sepa de quién se trata.     
                                     </p>
 
                                 </th>
-
                             </tr>
                             <tr>
                                 <th><b>Ingresar opinion</b></th>
@@ -395,13 +248,232 @@
                                     <a href="#">
                                         <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
                             </tr>
-
                         </table>
-
                     </div>
                 </div>
+
+            </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+
+                <div id="imp1">
+                    <img src="https://media.vandal.net/m/39843/death-stranding-201982112345528_1.jpg" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Death Stranding</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Death Stranding.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Desarrollador:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Kojima Productions.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Publisher:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Sony Interactive Entertainment, 505 Games, Epic Games Store, Steam, PlayStation Store.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Genero:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Acción y exploración.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>8 / noviembre / 2019.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        La trama de Death Stranding transcurre en un mundo postapocalíptico en el que un evento conocido como "Death Stranding" fusionó el mundo de los vivos y el de los muertos. ... La primera son los Entes Varados (o EV), almas de los muertos atrapadas en el mundo de los vivos que intentan arrastrar a los humanos al más allá.    
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+
+                <div id="imp1">
+                    <img src="https://i.pinimg.com/originals/5a/e0/ed/5ae0ed0ccb637f626475a4308434cee8.jpg" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Pac-Man</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Puck-Man.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Desarrollador:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Namco.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Publisher:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Namco (en Japón), Midway (en Norteamérica).</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Genero:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Laberinto.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>21 / mayo / 1980.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        El objetivo del personaje es comer todos los puntos de la pantalla, momento en el que se pasa al siguiente nivel o pantalla. Sin embargo, cuatro fantasmas o monstruos, Shadow (Blinky), Speedy (Pinky), Bashful (Inky) y Pokey (Clyde), recorren el laberinto para intentar capturar a Pac-Man.      
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <!-- Aqui va la imagen de los libros -->
+
+                <div id="imp1">
+                    <img src="https://media.vandal.net/m/82925/call-of-duty-warzone-20203102215835_1.jpg" width="300px" height="400px">
+                    <!-- Aqui va la información -->
+                    <div id="infp1">
+                        <h1>Call of Duty: Warzone</h1>
+                        <table>
+                            <tr>
+                                <th>
+                                    <b>Título original:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Call of Duty: Warzone.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Desarrollador:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Infinity Ward, Raven Software.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Publisher:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Activision, PlayStation Store, Tienda de Microsoft.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Genero:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>Battle Royale.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Fecha de lanzamiento:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>10 / marzo / 2020.</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <b>Sinopsis:&nbsp&nbsp</b>
+                                </th>
+                                <th>
+                                    <p>
+                                        Warzone permite el combate multijugador en línea entre 150 jugadores ambientados en la ciudad ficticia de Verdansk. El juego es un spin-off del título de 2019 Call of Duty: Modern Warfare, y se puede acceder a través de este o como un juego aparte.       
+                                    </p>
+
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><b>Ingresar opinion</b></th>
+                                <th>
+                                    <!-- Aqui va la imagen para opinar (Cruz) haciendo referencia a la pagina de la pelicula -->
+                                    <a href="#">
+                                        <i class="fa fa-plus-circle" aria-hidden="true" style="font-size: 50px;"></i></a></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
             </article>
         </section>
+        <div>
+            <a href="Videojuegos.aspx">
+                <input type="button" class="Button" value="Atras" /></a>
+        </div>
         <!-- Aqui termina el SECTION -->
         <!-- Ultima linea siempre debe ser el FOOTER (Siempre el mismo texto, hipervinculo a las reglas) -->
         <footer>

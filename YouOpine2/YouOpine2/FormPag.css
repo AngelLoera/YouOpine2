@@ -4,7 +4,7 @@
     font-size: 30px;
     color: white;
     padding-top: 10px;
-    width: 100%;
+
     padding-bottom: 10px;
     padding-left: 2%;
 }
@@ -50,6 +50,17 @@ table, tr, th {
     justify-content: center;
     font-family: Arial;
 }
+#Log4 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    font-family: Arial;
+    padding: 20px;
+    background-color: #393939;
+    color: white;
+    font-family: Arial;
+}
 .TxtText {
     padding: 12px 20px;
     margin: 8px 0;
@@ -71,5 +82,26 @@ table, tr, th {
     cursor: pointer;
 }
 .Button:hover {
+    background-color: plum;
+}
+
+.LogTit {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+#Button1 {
+    background-color: #393939;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#Button1:hover {
     background-color: plum;
 }
